@@ -63,7 +63,7 @@ exports.addPerformer = async function addPerformer(req, res) {
 
 
 
-//frontend example code
+// frontend example code
 // const createPerformerAndAddToMovie = async () => {
 //   try {
 //     const response = await fetch('/performers', {
