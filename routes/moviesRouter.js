@@ -9,6 +9,6 @@ router.get('/', movieCtrl.index)
 // GET /movies/:id: Gets An Individual Movie
 router.get('/:id', movieCtrl.show)
 // POST /movies/:movieId/performers/:performerId
-router.get('/:movieId/performers/:performerId', movieCtrl.addPerformer)
+router.post('/:movieId/performers/:performerId', movieCtrl.addPerformer)
 
 module.exports = router
